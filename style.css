@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  /* selber Flexbox(damit die zahlen in der Mitte sind)*/
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-wrap: wrap;
+  /* flex-direction: row;
+  text-align: center; */
+}
+.Action {
+  background-color: dodgerblue;
+}
+.Thriller {
+  background-color: rgb(190, 178, 178);
+}
+.Comedy {
+  background-color: rgb(255, 214, 30);
+}
+.Horror {
+  background-color: black;
+  color: white;
+}
+.Drama {
+  background-color: darkgrey;
+}
+.Romance {
+  background-color: red;
+}
+#dreimal {
+  flex-grow: 3;
+}
+
+#sixmal {
+  flex-grow: 6;
+}
+
+/* .Action,.Thriller,.Comedy,.Horror,.Drama,.Romance{ */
+div {
+  flex-basis: 200px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* text-align: center; */
+  align-items: center;
+  flex-grow: 1;
+  font-size: 1.8em;
+}
+
+/* } */
